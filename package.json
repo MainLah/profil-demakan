@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap-icons": "^1.7.1",
+    "typed.js": "^2.0.12",
+    "vanilla-tilt": "^1.7.2"
+  }
+}

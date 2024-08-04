@@ -1,0 +1,145 @@
+/* Splash */
+.splash {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #212529;
+  z-index: 100;
+  opacity: 1;
+  animation-name: splash;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes splash {
+  0% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+/* Navbar */
+.navbar {
+  z-index: 10;
+}
+
+.navbar-pc {
+  height: 80px;
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-animate {
+  height: 80px;
+  background: rgba(0, 0, 0, 0) !important;
+  animation-name: scroll;
+  animation-timing-function: ease;
+  animation-duration: 0.2s;
+}
+
+@keyframes scroll {
+  from {
+    height: 80px;
+    background: rgba(0, 0, 0, 0);
+  }
+  to {
+    height: 56px;
+    background: #212529 !important;
+  }
+}
+
+/* Jumbotron */
+.jumbotron {
+  color: #212529;
+  padding-top: 8rem;
+}
+
+/* about */
+.blob-svg-about {
+  width: 50%;
+  position: absolute;
+  z-index: -5;
+  transform: translate(50%, -7.5%);
+  opacity: 0.3;
+}
+
+#h2-about {
+  margin-top: 200px;
+}
+
+.p-about {
+  margin-bottom: 200px;
+}
+
+@media screen and (max-width: 500px) {
+  .blob-svg-about {
+    width: 90%;
+    transform: translate(10%, 5%);
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .blob-svg-about {
+    width: 90%;
+    transform: translate(10%, 10%);
+  }
+}
+
+/* Contact */
+.blob-svg-contact {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  z-index: -5;
+  transform: translate(50%, 0);
+  opacity: 0.3;
+}
+
+@media screen and (max-width: 500px) {
+  .blob-svg-contact {
+    width: 90%;
+    transform: translate(10%, 5%);
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .blob-svg-contact {
+    transform: translate(50%, -5%);
+  }
+}
+
+/* Project */
+.potensi-h2 {
+  padding-top: 6rem;
+}
+
+/* Footer */
+footer {
+  color: #ffffff;
+  height: 6rem;
+  margin: 0;
+}
+
+footer h4 {
+  padding-top: 2rem;
+}
+
+.github-link {
+  color: hsl(0, 0%, 100%);
+  transition: color 0.2s;
+}
+
+.github-link:hover {
+  color: hsl(0, 0%, 60%);
+}

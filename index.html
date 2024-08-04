@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css"
+    />
+
+    <!-- AOS css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Script typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- KUTE js -->
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.2.0/dist/kute.min.js"></script>
+
+    <title>Rendra Kusuma</title>
+  </head>
+  <body>
+    <!-- Splash screen start -->
+    <div class="splash hidden" id="splash">
+      <h1 style="color: #fff">
+        <span class="anim2"></span>
+      </h1>
+    </div>
+    <!-- Splash screen end -->
+
+    <!-- Nav bar start -->
+    <section id="navbar">
+      <nav
+        id="navbar-id"
+        class="navbar navbar-pc navbar-expand-md navbar-dark bg-dark fixed-top"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://github.com/MainLah">
+            <img
+              src="img/logo.png"
+              alt="Sukoharjo"
+              width="30px"
+              height="30px"
+            />
+            Demakan
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <button type="button" class="btn btn-light translate">
+                  Translate
+                </button>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Demakan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#potensi">Demakan Potential</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#location">Location</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Nav bar end -->
+
+    <!-- Main content start -->
+    <section class="jumbotron bg-secondary text-center">
+      <h1 class="display-4 mb-3"><span class="anim"></span></h1>
+      <div class="container">
+        <img
+          src="img/balai-desa-demakan.jpeg"
+          alt="Balai Desa Demakan"
+          class="border border-dark img-tilt img-fluid"
+        />
+      </div>
+      <div id="link-about"></div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,224L1440,160L1440,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Main section end -->
+
+    <!-- who I am start -->
+    <section id="about">
+      <svg
+        id="visual"
+        viewBox="0 0 900 600"
+        width="900"
+        height="600"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+        class="blob-svg-about"
+      >
+        <g transform="translate(437.5609538674684 258.95835804295155)">
+          <path
+            id="blob1"
+            d="M118.4 -109.3C156.3 -80.6 191.6 -40.3 196.4 4.7C201.1 49.7 175.1 99.5 137.3 149.5C99.5 199.5 49.7 249.7 -8.5 258.2C-66.7 266.7 -133.4 233.4 -158.4 183.4C-183.4 133.4 -166.7 66.7 -165.5 1.2C-164.4 -64.3 -178.7 -128.7 -153.7 -157.4C-128.7 -186 -64.3 -179 -12 -167C40.3 -155 80.6 -137.9 118.4 -109.3"
+            fill="#6c757d"
+          ></path>
+        </g>
+        <g transform="translate(420.4047181914717 341.93709541383123)">
+          <path
+            id="blob2"
+            d="M119.7 -120.7C168.7 -70.7 231.4 -35.4 239.6 8.2C247.9 51.9 201.7 103.7 152.7 133.7C103.7 163.7 51.9 171.9 -1.2 173C-54.2 174.2 -108.4 168.4 -135.6 138.4C-162.8 108.4 -162.9 54.2 -170.4 -7.5C-178 -69.3 -192.9 -138.6 -165.8 -188.6C-138.6 -238.6 -69.3 -269.3 -17 -252.3C35.4 -235.4 70.7 -170.7 119.7 -120.7"
+            fill="#6c757d"
+            style="visibility: hidden"
+          ></path>
+        </g>
+      </svg>
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col" data-aos="fade-up">
+            <h2 id="h2-about">Sedikit Tentang Demakan</h2>
+          </div>
+        </div>
+        <div class="row text-center justify-content-center">
+          <div class="col-md-4 col-lg-5 fs-5" data-aos="fade-up">
+            <p id="about-1">
+              Desa Demakan adalah sebuah desa yang terletak di Kecamatan
+              Mojolaban, Kabupaten Sukoharjo, Jawa Tengah. Secara administratif
+              Desa Demakan berbatasan dengan 7 desa. Di sisi utara, Demakan
+              berbatasan dengan Desa Palur dan Dukuh. Di sisi selatan, Demakan
+              berbatasan dengan Desa Bekonang, Cangkol, dan Klumprit.
+            </p>
+          </div>
+          <div
+            class="col-md-4 col-lg-5 6 fs-5"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <p class="p-about" id="about-2">
+              Sedangkan di sisi timur, Desa Demakan berbatasan dengan Desa Joho
+              dan di sisi barat dengan Desa Wirun. Desa Demakan memiliki luas
+              236,151 hektar dengan jumlah penduduk mencapai 5431 jiwa dan 1460
+              Kartu Keluarga. Desa Demakan sendiri terdiri dari 10 Rukun Warga
+              atau RW dan 34 Rukun Tetangga atau RT.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#6c757d"
+          fill-opacity="1"
+          d="M0,128L1440,256L1440,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- who I am end -->
+
+    <!-- Past projects -->
+    <section id="potensi" class="bg-secondary">
+      <div class="container mb-4 project-h2">
+        <div class="row justify-content-center text-center">
+          <div class="col-md-5" data-aos="fade-up">
+            <h2 id="h2-potensi">Potensi Desa Demakan</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-md-4 col-lg-10 fs-5" data-aos="fade-up">
+            <p id="p-potensi">
+              Desa Demakan memiliki wisata religi yang cukup terkenal dan sering
+              dikunjungi wisatawan dari luar Sukoharjo, yakni 7 sendang
+              pancuran. Sendang Pancuran konon dulunya adalah rawa-rawa yang
+              kemudian ditemukan 7 mata air. Mata air tersebut yang kemudian
+              menjadi Sendang Dewi Kunti, Sendang Kamulyanan, Sendang Tolakbala,
+              Sendang Segerwaras, Sendang Putriayu, Sendang Pengantin Kakung,
+              dan Sendang Putri. Sendang-sendang tersebut berdasarkan
+              kepercayaan setempat memiliki khasiatnya masing-masing, misalnya
+              Sendang Pengantin yang dipercaya bisa mempermudah mendapat jodoh.
+            </p>
+          </div>
+        </div>
+        <div id="carouselExample" class="carousel slide mt-5">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/foto-sendang-1.jpg"
+                class="img-fluid w-100"
+                alt="foto sendang"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/foto-sendang-2.jpg"
+                class="img-fluid w-100"
+                alt="foto sendang"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/foto-sendang-3.jpeg"
+                class="img-fluid w-100"
+                alt="foto sendang"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,192L1440,96L1440,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Past projects end -->
+
+    <!-- Contact start -->
+    <section id="location">
+      <svg
+        id="visual"
+        viewBox="0 0 900 600"
+        width="900"
+        height="600"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+        class="blob-svg-contact"
+      >
+        <g transform="translate(429.75021649127393 263.68922991585373)">
+          <path
+            id="blob3"
+            d="M177.3 -162.6C219.3 -135.3 235.6 -67.6 219.5 -16.1C203.4 35.4 154.7 70.7 112.7 120.7C70.7 170.7 35.4 235.4 -13.8 249.1C-62.9 262.9 -125.9 225.9 -156.9 175.9C-187.9 125.9 -186.9 62.9 -183.4 3.5C-179.9 -55.9 -173.7 -111.7 -142.7 -139.1C-111.7 -166.4 -55.9 -165.2 5.9 -171.1C67.6 -177 135.3 -190 177.3 -162.6"
+            fill="#6c757d"
+          ></path>
+        </g>
+        <g transform="translate(459.73779101881195 259.6073698486465)">
+          <path
+            id="blob4"
+            d="M158.9 -150.7C195.2 -122.6 206.6 -61.3 207.7 1.1C208.7 63.4 199.5 126.8 163.1 176.8C126.8 226.8 63.4 263.4 14 249.4C-35.4 235.4 -70.7 170.7 -118.2 120.7C-165.7 70.7 -225.4 35.4 -227.2 -1.9C-229.1 -39.1 -173.3 -78.3 -125.8 -106.4C-78.3 -134.6 -39.1 -151.8 11.1 -162.9C61.3 -173.9 122.6 -178.9 158.9 -150.7"
+            fill="#6c757d"
+            style="visibility: hidden"
+          ></path>
+        </g>
+      </svg>
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col" data-aos="fade-up">
+            <h2 id="h2-lokasi">Lokasi</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <iframe
+          class="w-100"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13429.856469124776!2d110.86471523469218!3d-7.596259878695177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a17dccb5e0e93%3A0x5c69320d8c547f1c!2sDemakan%2C%20Mojolaban%2C%20Sukoharjo%20Regency%2C%20Central%20Java%2C%20Indonesia!5e1!3m2!1sen!2sus!4v1722767462316!5m2!1sen!2sus"
+          style="border: 0"
+          height="500"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <!-- Contact end -->
+
+    <!-- Footer start -->
+    <footer class="bg-dark">
+      <div class="container text-center">
+        <h4>Made with love by Tim II KKN UNDIP Demakan 2024</h4>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Script bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Typed.js -->
+    <script>
+      var typed = new Typed(".anim", {
+        strings: [`Desa Demakan^2500`],
+        typeSpeed: 40,
+        backSpeed: 40,
+        loop: true,
+      });
+      var typed2 = new Typed(".anim2", {
+        strings: [`Welcome to Desa Demakan`],
+        typeSpeed: 20,
+      });
+    </script>
+
+    <!-- Tilt.js -->
+    <script type="text/javascript" src="lib/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      if (screen.width > 1000) {
+        VanillaTilt.init(document.querySelectorAll(".project-card"), {
+          max: 20,
+          speed: 400,
+          glare: true,
+          "max-glare": 0.3,
+        });
+        VanillaTilt.init(document.querySelectorAll(".img-tilt"), {
+          max: 20,
+          speed: 400,
+          reverse: true,
+          glare: true,
+          "max-glare": 0.3,
+        });
+      }
+    </script>
+
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+
+    <!-- Script KUTE -->
+    <script>
+      const tween = KUTE.fromTo(
+        "#blob1",
+        { path: "#blob1" },
+        { path: "#blob2" },
+        { repeat: 999, duration: 3000, yoyo: true }
+      );
+      tween.start();
+      const tween2 = KUTE.fromTo(
+        "#blob3",
+        { path: "#blob3" },
+        { path: "#blob4" },
+        { repeat: 999, duration: 3000, yoyo: true }
+      );
+      tween2.start();
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
