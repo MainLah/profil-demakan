@@ -29,13 +29,17 @@ if (screen.width < 1000 || window.scrollY > 0) {
 // Translate button
 
 const translateButton = document.getElementsByClassName("translate");
-const about1 = document.getElementById("about-1");
-const about2 = document.getElementById("about-2");
-const potensi = document.getElementById("p-potensi");
-const h2about = document.getElementById("h2-about");
-const h2potensi = document.getElementById("h2-potensi");
-const h2lokasi = document.getElementById("h2-lokasi");
+
 let translate = false;
+
+const html = {
+  about1: document.getElementById("about-1"),
+  about2: document.getElementById("about-2"),
+  potensi: document.getElementById("p-potensi"),
+  h2about: document.getElementById("h2-about"),
+  h2potensi: document.getElementById("h2-potensi"),
+  h2lokasi: document.getElementById("h2-lokasi"),
+};
 
 const content = {
   about1ID:
@@ -60,20 +64,14 @@ const content = {
 
 function translateWeb() {
   if (!translate) {
-    about1.textContent = content.about1EN;
-    about2.textContent = content.about2EN;
-    potensi.textContent = content.potensiEN;
-    h2about.textContent = content.h2aboutEN;
-    h2potensi.textContent = content.h2potensiEN;
-    h2lokasi.textContent = content.h2lokasiEN;
+    for (const item of Object.keys(html)) {
+      html[item].textContent = content[`${item}` + "EN"];
+    }
     translate = true;
   } else {
-    about1.textContent = content.about1ID;
-    about2.textContent = content.about2ID;
-    potensi.textContent = content.potensiID;
-    h2about.textContent = content.h2aboutID;
-    h2potensi.textContent = content.h2potensiID;
-    h2lokasi.textContent = content.h2lokasiID;
+    for (const item of Object.keys(html)) {
+      html[item].textContent = content[`${item}` + "ID"];
+    }
     translate = false;
   }
 }
